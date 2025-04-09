@@ -1,0 +1,24 @@
+{
+  "name": "testAppBackend",
+  "version": "1.0.0",
+  "description": "Test app server and middleware",
+  "main": "index.js",
+  "author": "angryhippo45",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "express-generator": "^4.16.1",
+    "mongodb": "^6.15.0",
+    "mongoose": "^8.13.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  }
+}
