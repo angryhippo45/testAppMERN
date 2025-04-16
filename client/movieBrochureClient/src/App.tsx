@@ -3,6 +3,7 @@ import { QueryClient, QueryClientProvider,  } from '@tanstack/react-query'
 import { createBrowserRouter, RouterProvider } from 'react-router';
 import MovieUsers from './components/movies/movieUsers'
 import './App.css'
+import Weather from './components/Weather/weather';
 
 function App() {
 
@@ -10,7 +11,7 @@ function App() {
   const router = createBrowserRouter([
     {
       path: "/",
-      element: <>Welcome to my Movie Brochure</>
+      element: <Weather />
 
     },
     {
